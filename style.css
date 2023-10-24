@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+/*HEADER SECTION*/
+
+header{
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul{
+  margin: 0;
+  padding: 15px;
+  color: black;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 20px; /* Reduced padding for smaller screens */
+  font-size: 20px; /* Reduced font size for smaller screens */
+}
+
+nav ul li a:hover{
+  background-color: gray;
+}
+
+/*ABOUT SECTION*/
+
+#about{
+  font-size: 30px;
+  background-color: grey;
+  text-align: center;
+  padding: 15%;
+}
+
+#aboutMe{
+  font-style: italic;
+  color:white;
+}
+
+#bottom-line{
+  height: 6px;
+  background-color: white;
+  width: 55%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/*PROJECT SECTION*/
+
+#projects{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.381);
+}
+
+.btn{
+  border: 3px solid gray;
+  color: #444;
+  font-weight: bold;
+}
+
+/*CONTACT SECTION*/
+
+.social{
+  margin-top: 50px;
+}
+
+#contact{
+  text-align: center;
+  font-style: italic;
+  outline: 100px;
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+#contact .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+#contact .container h1{
+  font-weight: bolder;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-size: 45px;
+}
+
+#contact .container p{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#contact .container .social>div a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.881);
+  margin: 10px;
+  font-weight: bolder;
+  transition: transform .5s;
+}
+
+#contact .container .social>div a:hover{
+  transform: translateY(-5px);
+}
+
+
+#bottom-line2{
+  height: 1px;
+  background-color: white;
+  width: 55%;
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3px;
+}
+
+/*FOOTER SECTION*/
+
+#main-footer{
+  background-color: #444;
+  padding: 20px; /* Reduced padding for smaller screens */
+  color: white;
+}
+
+#main-footer .container{
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+#main-footer .container p{
+  font-size: 20px;
+  flex-basis: 100%; /* Make paragraphs full-width on smaller screens */
+}
+
+#main-footer #creator a{
+  text-decoration: none;
+  color: antiquewhite;
+}
